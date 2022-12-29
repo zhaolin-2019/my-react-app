@@ -30,6 +30,7 @@ class NoConnectTest extends Component {
     render(){
         return (
            <div>
+                <p>直接修改state</p>
                 <button onClick={toAdd}>+</button>{store.getState().counter}
                 <button onClick={toDelete}>-</button>
            </div>

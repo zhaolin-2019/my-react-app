@@ -36,6 +36,7 @@ class NoConnectTest extends Component {
 
         return (
            <div>
+                <p>通过connect修改state</p>
                 <button onClick={toAdd}>+</button>{counter}
                 <button onClick={toDelete}>-</button>
            </div>
